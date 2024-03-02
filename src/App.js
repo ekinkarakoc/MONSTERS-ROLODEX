@@ -33,6 +33,7 @@ const App = () => {
       <h1 className="app-title">Monsters Rolodex</h1>
       <SearchBox onChangeHandler={onSearchChange} />
       <CardList monsters={filteredMonsters} />
+      <div>selaam</div>
     </div>
   );
 };
